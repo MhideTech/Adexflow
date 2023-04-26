@@ -162,8 +162,8 @@
     border-bottom: 3px solid #ec5453;
 }
 .color2-service .service-icon, .red{
-    background-color: #ec5453;
-    color: #ec5453;
+    background-color: #ec5453 !important;
+    color: #ec5453 !important;
 }
 .color2-service .service-icon::before{
     border-color: transparent transparent #ec5453 transparent;
@@ -175,7 +175,7 @@
     border-bottom: 3px solid #f9bf3f;
 }
 .color3-service .service-icon, .yellow{
-    background-color: #f9bf3f;
+    background-color: #f9bf3f !important;
 }
 .color3-service .service-icon::before{
     border-color: transparent transparent #f9bf3f transparent;
@@ -187,7 +187,7 @@
     border-bottom: 3px solid #a84cb8;
 }
 .color4-service .service-icon, .purple{
-    background-color: #a84cb8;
+    background-color: #a84cb8 !important;
 }
 .color4-service .service-icon::before{
     border-color: transparent transparent #a84cb8 transparent;
@@ -198,8 +198,8 @@
 .color5-service{
     border-bottom: 3px solid #2fa499;
 }
-.color5-service .service-icon{
-    background-color: #2fa499;
+.color5-service .service-icon, .green{
+    background-color: #2fa499 !important;
 }
 .color5-service .service-icon::before{
     border-color: transparent transparent #2fa499 transparent;
@@ -210,8 +210,8 @@
 .color6-service{
     border-bottom: 3px solid #4054b2;
 }
-.color6-service .service-icon{
-    background-color: #4054b2;
+.color6-service .service-icon, .dark-blue{
+    background-color: #4054b2 !important;
 }
 .color6-service .service-icon::before{
     border-color: transparent transparent #4054b2 transparent;
@@ -244,12 +244,19 @@
 @media only screen and (max-width: 767px) {
     .sidebar{
         /* display: none !important; */
+        margin: 0px;
     }
     .landing-page{
         padding: 0px 10px;
     }
     .counter{
         height: 600px;
+    }
+    .job-profile-inner{
+        width: 100% !important;
+    }
+    .accordion-item{
+        width: 320px !important;
     }
 }
 
@@ -352,31 +359,14 @@
     padding: 10px 20px;
     justify-content: space-between;
 }
-/* .progress-bar{
-    background: #2c98f0;
-    box-shadow: none;
-    font-size: 12px;
-    line-height: 1.2;
-    color: #000;
-    font-weight: 600;
-    text-align: right;
-    position: relative;
-    overflow: visible;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    border-radius: 8px;
+.contact{
+    padding: 80px 30px;
 }
-.progress-bar::after{
-    position: absolute;
-    top: -2px;
-    right: 0;
-    width: 30px;
-    height: 30px;
-    content: '';
-    background: #2c98f0;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%;
-} */
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #2fa499;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
