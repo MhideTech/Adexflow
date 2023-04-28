@@ -14,23 +14,54 @@
 <body>
     <div class="container-fluid body">
         <div class="row">
-            <div class="col-3 sidebar">
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
-                    <span class="navbar-toggler-icon"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
-                </button>
-                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbarLight" aria-labelledby="offcanvasNavbarLightLabel">
-                    <div class="offcanvas-header">
-                      <div class="ms-auto">
-                        <button type="button" data-bs-dismiss="offcanvas" class="btn btn-lg" aria-label="Close"><i class="fa fa-times" aria-hidden="true"></i></button>
-                      </div>
+            <div class="col-3">
+                <div class="col-12 myToggleBtn">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                        <span class="navbar-toggler-icon"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
+                    </button>
+                    <div class="offcanvas offcanvas-start myToggleOffcanvas" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel" data-bs-backdrop="static">
+                        <div class="offcanvas-header">
+                          <div class="ms-auto">
+                            <button type="button" data-bs-dismiss="offcanvas" class="btn btn-lg" aria-label="Close"><i class="fa fa-times" aria-hidden="true"></i></button>
+                          </div>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="profile">
+                                <div class="profile-pic"></div>
+                                <h1 class="fw-bold text-center mt-4">Adexflow</h1>
+                                <p class="text-center fs-5">Software Engineer</p>
+                            </div>
+                          <ul class="nav nav-pills justify-content-end flex-column pe-3 text-center">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#education">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experience">Experience</a>
+                            </li>
+                          </ul>
+                        </div>
                     </div>
-                    <div class="offcanvas-body">
-                        <div class="profile" style="visibility: visible;">
+                </div>
+                <div class="col-12 ">
+                    <div class="myProfile">
+                        <div class="profile">
                             <div class="profile-pic"></div>
                             <h1 class="fw-bold text-center mt-4">Adexflow</h1>
                             <p class="text-center fs-5">Software Engineer</p>
                         </div>
-                      <ul class="nav nav-pills justify-content-end flex-grow-1 flex-column pe-3 text-center">
+                      <ul class="nav nav-pills justify-content-end flex-column pe-3 text-center">
                         <li class="nav-item">
                           <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
@@ -110,7 +141,7 @@
 
                         <div class="container">
                             <div class="row pb-5">
-                                <div class="col-md-4 col-12 my-2">
+                                <div class="col-md-4 col-12 my-4">
                                     <div class="service-box shadow-lg color1-service">
                                         <div class="service-icon">
                                             <p class="text-center"><i class="fa fa-lightbulb-o fa-3x" aria-hidden="true"></i></p>
@@ -118,7 +149,7 @@
                                         <p class="text-center fw-bold fs-3">Lorem Ipsum</p>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-12 my-2">
+                                <div class="col-md-4 col-12 my-5">
                                     <div class="service-box shadow-lg color2-service">
                                         <div class="service-icon">
                                             <p class="text-center"><i class="fa fa-lightbulb-o fa-3x" aria-hidden="true"></i></p>
@@ -126,7 +157,7 @@
                                         <p class="text-center fw-bold fs-3">Lorem Ipsum</p>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-12 my-2">
+                                <div class="col-md-4 col-12 my-5">
                                     <div class="service-box shadow-lg color3-service">
                                         <div class="service-icon">
                                             <p class="text-center"><i class="fa fa-lightbulb-o fa-3x" aria-hidden="true"></i></p>
@@ -144,7 +175,7 @@
                                         <p class="text-center fw-bold fs-3">Lorem Ipsum</p>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-12 my-2">
+                                <div class="col-md-4 col-12 my-5">
                                     <div class="service-box shadow-lg color5-service">
                                         <div class="service-icon">
                                             <p class="text-center"><i class="fa fa-lightbulb-o fa-3x" aria-hidden="true"></i></p>
@@ -152,7 +183,7 @@
                                         <p class="text-center fw-bold fs-3">Lorem Ipsum</p>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-12 my-2">
+                                <div class="col-md-4 col-12 my-5">
                                     <div class="service-box shadow-lg color6-service">
                                         <div class="service-icon">
                                             <p class="text-center"><i class="fa fa-lightbulb-o fa-3x" aria-hidden="true"></i></p>
