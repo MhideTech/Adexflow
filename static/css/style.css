@@ -14,12 +14,10 @@
 }
 .myProfile{
     height: 100vh !important;
-    background-color: #2c98f0;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
     padding: 80px 0px 0px;
+    background-color: #f2f3f7;
 }
 .myToggleBtn{
     display: none !important;
@@ -269,7 +267,12 @@
     .myToggleBtn{
         display: contents !important;
         height: 500px !important;
-        background-color: rebeccapurple;
+    }
+    .navbar-toggler{
+        height: 100px !important;
+    }
+    .schools, .contain{
+        margin: 0px 0px 0px 0px  !important;
     }
 
 }
@@ -287,6 +290,7 @@
 }
 .accordion-item button:focus{
     background-color: #2c98f0;
+    color: white;
 }
 .accordion-collapse{
     background-color: white;
@@ -294,7 +298,7 @@
     margin-top: 5px;
 }
 .schools{
-    width: 60%;
+    width: 60% !important;
     margin-left: 30px;
 }
 .experience{
@@ -368,11 +372,6 @@
     margin-left: 10px;
     margin-top: -10px;
 }
-.uiui{
-    font-size: 1.2rem;
-    padding: 10px 20px;
-    justify-content: space-between;
-}
 .contact{
     padding: 80px 30px;
 }
@@ -383,4 +382,12 @@
     align-items: center;
     display: flex;
     justify-content: center;
+}
+.contact-box{
+    width: 100px;
+    height: 100px;
+    background-color: #f2f3f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
