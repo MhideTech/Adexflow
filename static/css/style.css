@@ -335,6 +335,9 @@
     line-height: 40px;
     float: left;
 }
+.job-profile-cont .job-profile .job-profile-inner .timeline-icon i{
+    color: #fff;
+}
 .job-profile-cont .job-profile .job-profile-inner .timeline-label{
     position: relative;
     background: #f2f3f7;
